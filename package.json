@@ -1,0 +1,30 @@
+{
+  "name": "app-ui",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server/index.js",
+    "build": "cd client && npm install && npm run build"
+  },
+  "engines": {
+    "node": "your-node-version"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Aneesh9390/app-ui.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Aneesh9390/app-ui/issues"
+  },
+  "homepage": "https://github.com/Aneesh9390/app-ui#readme",
+  "dependencies": {
+    "@projectstorm/react-diagrams": "^6.7.4",
+    "diagrams": "^0.27.0",
+    "express": "^4.18.1",
+    "react": "^18.2.0"
+  }
+}
